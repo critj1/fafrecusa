@@ -15,10 +15,8 @@ public class AccessoFrame extends JFrame {
   private final JButton pulsanteAccedi, pulsanteRegistrati;
   private static String[] datiUtente = new String[2];
   private AccessoUtenteMain aU = new AccessoUtenteMain();
-  // JLabel logo = new JLabel(new ImageIcon(getClass().getResource("/logo_MenedorBank.png")));
-  JLabel logo = new JLabel(new ImageIcon("resources/Logo_MenedorBank.png"));
 
-  // URL imgURL = getClass().getClassLoader().getResource("Logo_MenedorBank.png");
+  JLabel logo = new JLabel(new ImageIcon("resources/Logo_MenedorBank.png"));
 
   public AccessoFrame() {
     setTitle("Menedor Bank - Accesso");

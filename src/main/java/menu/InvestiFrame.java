@@ -40,10 +40,7 @@ public class InvestiFrame extends JFrame {
   private final JLabel etichettaImporto;
   private final JTextField campoImporto;
 
-  JLabel logo =
-      new JLabel(
-          new ImageIcon(
-              "E:/Menedor2.1/tpsit 2 nuovissimo/menedor2bestgoat/src/main/resources/Logo_MenedorBank.png"));
+  JLabel logo = new JLabel(new ImageIcon("resources/Logo_MenedorBank.png"));
 
   public InvestiFrame() {
     setTitle("Menedor Bank - Investimenti");
