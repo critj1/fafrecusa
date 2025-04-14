@@ -65,7 +65,7 @@ public class InvestiFrame extends JFrame {
     lungaDurata = creaBottone("Lunga Durata");
 
     bassoRischio = creaBottone("Basso Rischio");
-    medioRischio = creaBottone("Medio Rischio");
+    medioRischio = creaBottone("Medio Rischioo");
     altoRischio = creaBottone("Alto Rischio");
 
     annulla = creaBottoneArrotondato("Annulla", new Color(200, 50, 50));
